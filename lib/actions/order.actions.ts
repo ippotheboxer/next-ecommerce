@@ -393,7 +393,7 @@ export async function updateOrderToPaidCOD(orderId: string) {
 }
 
 // Update COD order to devliered
-export async function devlierOrder(orderId: string) {
+export async function deliverOrder(orderId: string) {
   try {
     const order = await prisma.order.findFirst({
       where: {
