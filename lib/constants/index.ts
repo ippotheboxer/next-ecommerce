@@ -36,7 +36,7 @@ export const productDefaultValues = {
   brand: '',
   description: '',
   price: '0',
-  stock: '0',
+  stock: 0,
   rating: '',
   numReviews: '',
   isFeatured: false,
